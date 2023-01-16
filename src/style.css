@@ -1,0 +1,25 @@
+body {
+    font-family: "Hero", sans-serif;
+    background-color: #272727;
+    margin: auto;
+    display: block;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+form {
+    text-align: center;
+}
