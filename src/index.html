@@ -17,14 +17,19 @@
     <header>
       <img src="./img/logo.png" height="280" width="280">
     </header>
-    <main></main>
-    <h2> Check out </h2>
-    <p> Insira o número de um cartão válido </p>
-    <form>
-    <input type="text" name="cardNum" id="cardNum">
-    <input type="submit">
-  </form>
+    <main>
+     <h2> Check out </h2>
+     <div id="cardBox"></div>
+     <p> Para seguir com a sua compra, <br>
+      insira o número de um cartão válido: </p>
+     <form id="formulario">
+        <input type="text" required="required" id="campoNumeros" pattern="[0-9]+" title="Digite somente números"/>
+        <button type="submit" id="teste">Enviar</button>
+      </form>
+      <p id="txtResposta"></p>
+    </main>
     <footer></footer>
+  
     <script src="index.js" type="module"></script>
   </body>
 </html>

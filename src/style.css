@@ -18,8 +18,25 @@ h2 {
 p {
     text-align: center;
     color: whitesmoke;
+    font-size: medium;
 }
 
 form {
     text-align: center;
+}
+
+#cardBox {
+    position: absolute;
+    height: 131px;
+    left: 600px;
+    right: 600px;
+    top: 500px;
+
+    background: #2A7877;
+    border-radius: 10px;
+
+}
+
+#txtResposta {
+    font-size: 12px;
 }
