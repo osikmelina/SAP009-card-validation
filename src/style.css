@@ -10,7 +10,7 @@ img {
     display: block;
 }
 
-h2 {
+h3 {
     text-align: center;
     color: whitesmoke;
 }
@@ -18,7 +18,7 @@ h2 {
 p {
     text-align: center;
     color: whitesmoke;
-    font-size: medium;
+    font-size: 14px;
 }
 
 form {
@@ -26,17 +26,33 @@ form {
 }
 
 #cardBox {
-    position: absolute;
-    height: 131px;
-    left: 600px;
-    right: 600px;
-    top: 500px;
-
-    background: #2A7877;
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #2A7877;
     border-radius: 10px;
-
+    background-image: url(/img/cartao.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 #txtResposta {
     font-size: 12px;
+}
+
+#numeroImagemCartao {
+    margin-top: 60px;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#yourBank {
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: whitesmoke;
 }

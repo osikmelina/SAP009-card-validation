@@ -15,15 +15,18 @@
   </head>
   <body>
     <header>
-      <img src="./img/logo.png" height="280" width="280">
+      <img src="./img/logo.png" height="220" width="220">
     </header>
     <main>
-     <h2> Check out </h2>
-     <div id="cardBox"></div>
+     <h3> Check out </h3>
+     <div id="cardBox">
+      <span id="yourBank"><strong><i>Your Bank</i></strong></span>
+      <span id="numeroImagemCartao"></span>
+     </div>
      <p> Para seguir com a sua compra, <br>
       insira o número de um cartão válido: </p>
      <form id="formulario">
-        <input type="text" required="required" id="campoNumeros" pattern="[0-9]+" title="Digite somente números"/>
+        <input type="text" required="required" id="campoNumeros" pattern="[0-9]+" title="Digite somente números" maxlength="23"/>
         <button type="submit" id="teste">Enviar</button>
       </form>
       <p id="txtResposta"></p>

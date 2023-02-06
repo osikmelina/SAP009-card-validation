@@ -27,23 +27,18 @@ const validator = {
     }
 
   },
-  maskify: function(cardNumber) {
-
-    const fourLastDigits = cardNumber.slice(-4);
-    const symbol = "#";
-    const numberQuantity = cardNumber.length - 4
-    const maskedNumber = symbol.repeat(numberQuantity) + fourLastDigits
-    return maskedNumber
-
+  maskify: function(numeroDoCartao) {
+    if (numeroDoCartao.length >= 4) {
+      const quatroUltimosDigitos = numeroDoCartao.slice(-4);
+      const simbolo = "#";
+      const quantidadeDeSimbolos = numeroDoCartao.length - 4
+      const numeroMascarado = simbolo.repeat(quantidadeDeSimbolos) + quatroUltimosDigitos
+      return numeroMascarado
+    } else {
+      return numeroDoCartao
+    }
   },
 };
-
-// const array = ['1','2','3','4','5'] // -> split
-// array.reverse() // ['5','4','3','2','1'] -> reverse
-
-// array[2] // -> '3
-
-// Number(array[2]) // -> '3' -> 3
 
 export default validator;
 
