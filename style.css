@@ -1,0 +1,58 @@
+body {
+    font-family: "Hero", sans-serif;
+    background-color: #272727;
+    margin: auto;
+    display: block;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+h3 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
+form {
+    text-align: center;
+}
+
+#cardBox {
+    width: 320px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #2A7877;
+    border-radius: 10px;
+    background-image: url(/img/cartao.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+#txtResposta {
+    font-size: 12px;
+}
+
+#numeroImagemCartao {
+    margin-top: 60px;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+#yourBank {
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: whitesmoke;
+}
