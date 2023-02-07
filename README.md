@@ -5,7 +5,7 @@
 * [1. Resumo do projeto](#1-resumo-do-projeto)
 * [2. Objetivos gerais](#2-objetivo-gerais)
 * [3. Funcionamento da aplicação](#3-funcionamento-da-aplicação)
-* [4. Descrição de scripts/funcionalidades](#4-descrição-de-scripts/funcionalidades)
+* [4. Descrição de scripts e funcionalidades](#4-descrição-de-scripts-e-funcionalidades)
 * [5. Deploy](#5-deploy)
 
 ## 1. Resumo do projeto
@@ -25,7 +25,7 @@ Permitir que o usuário seja encaminhado para o pagamento somente a partir da co
 * O número digitado no campo vai aparecendo no modelo de cartão, com aplicação automática de máscara exceto nos últimos 4 caracteres.
 * Não é possível inserir um campo vazio.
 
-## 4. Descrição de scripts/funcionalidades
+## 4. Descrição de scripts e funcionalidades
 
 * `src/validator.js`: aqui está implementado o objeto `validator`, que contém
   dois métodos:
